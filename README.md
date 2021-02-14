@@ -44,7 +44,7 @@ docker exec -i -t docker-nodejs_node_1 bash
 if nessary（Made on git）
 install
 npm i -g @adonisjs/cli
-create project
+create project'(adonis-appをさくせじょして新しいプルジェクトを作成できます)
 adonis new adonis-app
 ```
 adonis serve --dev
