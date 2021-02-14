@@ -13,7 +13,8 @@
     "koa": "2",
     "mongoose": "^5.7.7",
     "node-mysql": "^0.4.2",
-    "redis": "^2.6.3"
+    "redis": "^2.6.3",
+    "yarn": "^1.22.10"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"

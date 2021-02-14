@@ -1,4 +1,4 @@
-version: '2'
+version: "2"
 services:
   nginx:
     image: openresty/openresty
@@ -30,7 +30,7 @@ services:
       - ${GOOGLEDNS}
     ports:
       - "${APP_PORT}:${APP_PORT}"
-      - "5858:5858"
+      - "3333:3333"
     volumes:
       - .:/code
     working_dir: /code
