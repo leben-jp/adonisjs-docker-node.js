@@ -39,7 +39,7 @@ yarn install
 
 docker-compose up -d
 ```
-docker exec -i -t adonisjs-docker-nodejs_node_1 bash
+docker exec -i -t docker-nodejs_node_1 bash
 
 npm i -g @adonisjs/cli
 
