@@ -38,14 +38,14 @@ cd docker-node.js
 yarn install
 
 docker-compose up -d
-```
+
 docker exec -i -t docker-nodejs_node_1 bash
 
 npm i -g @adonisjs/cli
 
 adonis new adonis-app
-```
+
 adonis serve --dev
 
 Now,you can open http://0.0.0.0:33333/ in browser
-
+```
